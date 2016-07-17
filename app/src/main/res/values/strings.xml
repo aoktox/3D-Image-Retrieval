@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">3D Image Retrieval</string>
+    <string name="title_activity_detail">DetailActivity</string>
+</resources>
