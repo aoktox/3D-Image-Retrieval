@@ -61,6 +61,7 @@ public class LoadModelFragment extends MainFragment {
             //LoaderOBJ objParser = new LoaderOBJ(this,"Download/3D/multiobjects_obj");
             try {
                 LoaderOBJ objParser = new LoaderOBJ(this,"3D/"+bundle.getString(BUNDLE_OBJ_NAME));
+
                 objParser.parse();
                 mObjectGroup = objParser.getParsedObject();
                 getCurrentScene().addChild(mObjectGroup);
